@@ -1,6 +1,5 @@
 attributes: []
-characters:
-- beginString: var
+characters: []
 commands:
 - beginString: Abs
 - beginString: AccountExtendedPrivileges
@@ -915,23 +914,7 @@ outlineMenu: []
 strings:
 - beginString: "\""
   endString: "\""
-- beginString: "\\("
-  regularExpression: true
-- beginString: "\\)"
-  regularExpression: true
-- beginString: "\\["
-  regularExpression: true
-- beginString: "\\]"
-  regularExpression: true
-- beginString: "\\{"
-  regularExpression: true
-- beginString: "\\}"
-  regularExpression: true
 types:
-- beginString: "!"
-- beginString: "::"
-- beginString: ";"
-- beginString: "\\"
 values:
 - beginString: 'false'
   ignoreCase: true
