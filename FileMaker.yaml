@@ -45,6 +45,8 @@ commands:
 - beginString: CryptDigest
 - beginString: CryptEncrypt
 - beginString: CryptEncryptBase64
+- beginString: CryptGenerateSignature
+- beginString: CryptVerifySignature
 - beginString: CurrentDate
 - beginString: CurrentExtendedPrivileges
 - beginString: CurrentHostTimestamp
@@ -232,6 +234,7 @@ commands:
 - beginString: Self
 - beginString: SerialIncrement
 - beginString: SetPrecision
+- beginString: SetRecursion
 - beginString: Sign
 - beginString: Sin
 - beginString: SortState
@@ -293,6 +296,7 @@ commands:
 - beginString: VerifyContainer
 - beginString: WeekOfYear
 - beginString: WeekOfYearFiscal
+- beginString: While
 - beginString: WindowContentHeight
 - beginString: WindowContentWidth
 - beginString: WindowDesktopHeight
@@ -313,6 +317,7 @@ commands:
 - beginString: YearName
 - beginString: アカウントアクセス権セット名
 - beginString: アカウントグループ名
+- beginString: アカウントタイプ
 - beginString: アカウント名
 - beginString: アカウント拡張アクセス権
 - beginString: アクティブフィールドテーブル名
@@ -344,6 +349,7 @@ commands:
 - beginString: ウインドウ表示
 - beginString: ウインドウ高さ
 - beginString: エラー処理状態
+- beginString: オープンデータファイル情報
 - beginString: カスタムメニューセット名
 - beginString: クイック検索テキスト
 - beginString: システム IP アドレス
@@ -477,6 +483,8 @@ completions:
 - keyString: CryptDigest
 - keyString: CryptEncrypt
 - keyString: CryptEncryptBase64
+- keyString: CryptGenerateSignature
+- keyString: CryptVerifySignature
 - keyString: CurrentDate
 - keyString: CurrentExtendedPrivileges
 - keyString: CurrentHostTimestamp
@@ -664,6 +672,7 @@ completions:
 - keyString: Self
 - keyString: SerialIncrement
 - keyString: SetPrecision
+- keyString: SetRecursion
 - keyString: Sign
 - keyString: Sin
 - keyString: SortState
@@ -725,6 +734,7 @@ completions:
 - keyString: VerifyContainer
 - keyString: WeekOfYear
 - keyString: WeekOfYearFiscal
+- keyString: While
 - keyString: WindowContentHeight
 - keyString: WindowContentWidth
 - keyString: WindowDesktopHeight
@@ -745,6 +755,7 @@ completions:
 - keyString: YearName
 - keyString: アカウントアクセス権セット名
 - keyString: アカウントグループ名
+- keyString: アカウントタイプ
 - keyString: アカウント名
 - keyString: アカウント拡張アクセス権
 - keyString: アクティブフィールドテーブル名
@@ -776,6 +787,7 @@ completions:
 - keyString: ウインドウ表示
 - keyString: ウインドウ高さ
 - keyString: エラー処理状態
+- keyString: オープンデータファイル情報
 - keyString: カスタムメニューセット名
 - keyString: クイック検索テキスト
 - keyString: システム IP アドレス
