@@ -1,0 +1,37 @@
+// Variables
+$variables = 1;
+$$variables = 1;
+$VAR1 = 1;
+$$VAR2 = 1;
+$変数1 = 1;
+$$変数2 = 1;
+$変数 スペース = 1;
+$var 1 = 1;
+
+Let([
+  ~var 1 = 1;
+];
+  ~var 1 + 1
+)
+
+// Functions
+Abs(1.24)
+CustumFunction(~var; $$var 1 + 1)
+Get(デスクトップ)
+
+// String
+"\(String 1 $AA \""
+
+// 演算子
+$1 + 1 / ~var * 2 - 5
+$var 1 & "String"
+
+// Numeric
+1 + 100000
++100.11
++0.1111
++.11111
+-100000
+-100.11
+-0.1111
+-.11111
