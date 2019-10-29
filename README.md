@@ -9,7 +9,7 @@ FileMaker CotEditor Syntax Highlighting
 
 ### Download
 
-[Download FileMaker.yaml](./FileMaker.yaml)
+[Download FileMaker.yaml](https://raw.githubusercontent.com/hazi/filemaker-syntax-coteditor/master/FileMaker.yaml)
 
 ### Import
 
