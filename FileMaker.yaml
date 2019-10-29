@@ -907,14 +907,14 @@ metadata:
   author: Teruhiro Komaki @ frudens Inc.
   lastModified: '2018-02-20'
   version: 1.0.0
-numbers:
-- beginString: "\\b-?[1-9]\\d*(\\.[0-9]+)?\\b"
-  regularExpression: true
+numbers: []
 outlineMenu: []
 strings:
 - beginString: "\""
   endString: "\""
 types:
+- beginString: "[-+]?\\d+(\\.\\d+)?|[-+]?\\.\\d+"
+  regularExpression: true
 values:
 - beginString: 'false'
   ignoreCase: true
