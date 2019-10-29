@@ -924,9 +924,5 @@ values:
 - beginString: 'true'
   ignoreCase: true
 variables:
-- beginString: "(\\$)..*?\\b"
-  regularExpression: true
-- beginString: "(\\$\\$)..*?\\b"
-  regularExpression: true
-- beginString: "(\\~)..*?\\b"
+- beginString: "(\\$\\$?|~).+?(?=(\\&|=|≠|>|<|≥|≤|\\+|-|/|\\*|not|and|or|xor|\\^|\\[|\\]|\\(|\\)|;|\\n|$))"
   regularExpression: true
