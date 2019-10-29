@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+require "pathname"
+require 'fileutils'
+require "yaml"
+
+file = Pathname("FileMaker.yaml")
+FileUtils.cp file, "#{file}.back"
+
+data = YAML.load_file(file)
+yaml = YAML.dump(data.sort { |a, b| a[0] <=> b[0] }.to_h)
+yaml.sub!(/\A---\n/, "")
+
+open(file, "w") { |io| io.puts(yaml) }
