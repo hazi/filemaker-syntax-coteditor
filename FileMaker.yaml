@@ -1,6 +1,8 @@
 attributes: []
 characters: []
 commands:
+- beginString: "[\\w ]+(?=\\()"
+  regularExpression: true
 - beginString: Abs
 - beginString: AccountExtendedPrivileges
 - beginString: AccountGroupName
@@ -94,6 +96,7 @@ commands:
 - beginString: FoundCount
 - beginString: Furigana
 - beginString: FV
+- beginString: Get
 - beginString: GetAsBoolean
 - beginString: GetAsCSS
 - beginString: GetAsDate
