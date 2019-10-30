@@ -9,21 +9,21 @@ FileMaker CotEditor Syntax Highlighting
 
 ### Download
 
-[Download FileMaker.yaml](https://raw.githubusercontent.com/hazi/filemaker-syntax-coteditor/master/FileMaker.yaml)
+[Download FileMaker.yaml](https://github.com/hazi/filemaker-syntax-coteditor/releases/download/v1.1.2/FileMaker.yaml)
 
 ### Import
 
-CotEditor > 環境設定 > フォーマット > インストール済みスタイル > 読み込み… > `FileMaker.yaml`を選択
+`CotEditor` > `環境設定` > `フォーマット` > `インストール済みスタイル` > `読み込み…` > `FileMaker.yaml`を選択
 
 ## Spec
 
-* 通常の変数（\$, $$）に加えて、関数内変数用のキーワードとしてチルダ（~）も変数としてハイライトします
+* 通常の変数（`$`, `$$`）に加えて、関数内変数用のキーワードとしてチルダ（`~`）も変数としてハイライトします
 * FileMaker 18 までの関数、キーワードに対応しています
 
 ## Contributing
 
 * リポジトリをフォークし、そのリポジトリのブランチを元に Pull request を作成してください。
-* コミット前に normalizer を必ず実行してください。
+* コミット前に `./normalizer` を必ず実行してください。
 
 ### normalizer
 
