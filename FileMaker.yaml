@@ -1,5 +1,9 @@
 attributes: []
-characters: []
+characters:
+- beginString: "\\\\."
+  regularExpression: true
+- beginString: "¶"
+  regularExpression: true
 commands:
 - beginString: "[\\w ]+(?=\\()"
   regularExpression: true

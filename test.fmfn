@@ -20,7 +20,7 @@ CustumFunction(~var; $$var 1 + 1)
 Get(デスクトップ)
 
 // String
-"\(String 1 $AA \""
+"\\String 1¶ \"$AA\""
 
 // 演算子
 $1 + 1 / ~var * 2 - 5
