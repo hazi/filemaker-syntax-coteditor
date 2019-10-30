@@ -1,4 +1,8 @@
-attributes: []
+attributes:
+- beginString: and
+- beginString: not
+- beginString: or
+- beginString: xor
 characters:
 - beginString: "\\\\."
   regularExpression: true
@@ -902,18 +906,14 @@ keywords:
   regularExpression: true
 - beginString: "\\^"
   regularExpression: true
-- beginString: and
-- beginString: not
-- beginString: or
-- beginString: xor
 - beginString: "¶"
 - beginString: "≤"
 - beginString: "≥"
 metadata:
-  version: 1.1.0
-  author: HAZI
-  lastModified: '2019-10-29'
   distributionURL: https://github.com/hazi/filemaker-syntax-coteditor
+  author: HAZI
+  lastModified: '2019-10-30'
+  version: 1.1.1
 numbers: []
 outlineMenu: []
 strings:

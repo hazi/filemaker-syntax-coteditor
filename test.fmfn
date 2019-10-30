@@ -15,7 +15,7 @@ Let([
 )
 
 // Functions
-Abs(1.24)
+not Abs($hoge) = 1
 CustumFunction(~var; $$var 1 + 1)
 Get(デスクトップ)
 
