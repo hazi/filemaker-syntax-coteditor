@@ -883,8 +883,9 @@ completions:
 - keyString: 開いているレコード数
 - keyString: 領域監視イベント
 extensions:
-- keyString: txt
 - keyString: fmfn
+- keyString: fmp
+- keyString: txt
 interpreters: []
 keywords:
 - beginString: "&"
@@ -913,7 +914,7 @@ metadata:
   distributionURL: https://github.com/hazi/filemaker-syntax-coteditor
   author: HAZI
   lastModified: '2019-10-30'
-  version: 1.1.1
+  version: 1.1.2
 numbers: []
 outlineMenu: []
 strings:
