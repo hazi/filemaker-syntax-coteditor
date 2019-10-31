@@ -1,7 +1,14 @@
-filemaker-syntax-coteditor
+FileMaker syntax coloring for CotEditor
 ================
 
-FileMaker CotEditor Syntax Highlighting
+macOS 用のシンプルで強力なテキストエディタ [CotEditor](https://coteditor.com/) で 複雑な FileMaker 計算式を見やすくする為のシンタックスカラーリングファイル
+
+## Spec
+
+* FileMaker 18 までの関数、キーワードに対応
+* カスタム関数を含めた関数のカラーリングに対応
+* 通常の変数（`$`, `$$`）に加えて、関数内変数用のキーワードとしてチルダ（`~`）も変数としてカラーリング
+* 文字列内の特殊文字列（`\\`, `\"`, `¶`）のハイライト
 
 ![filemaker-syntax-coteditor](image.png)
 
@@ -9,20 +16,13 @@ FileMaker CotEditor Syntax Highlighting
 
 ### Download
 
-[Download FileMaker.yaml](https://github.com/hazi/filemaker-syntax-coteditor/releases/download/v1.1.3/FileMaker.yaml)
+[latest release FileMaker.yaml](https://github.com/hazi/filemaker-syntax-coteditor/releases/latest/download/FileMaker.yaml)
 
 ### Import
 
 ![Import](import.png)
 
 CotEditorの環境設定 > フォーマット > インストール済みスタイル: > 読み込み… > ダウンロードした `FileMaker.yaml` を選択
-
-## Spec
-
-* FileMaker 18 までの関数、キーワードに対応
-* カスタム関数を含めた関数のカラーリング
-* 通常の変数（`$`, `$$`）に加えて、関数内変数用のキーワードとしてチルダ（`~`）も変数としてハイライト
-* 文字列内の特殊文字列（`\\`, `\"`, `¶`）のハイライト
 
 ## Contributing
 
