@@ -922,7 +922,7 @@ strings:
 - beginString: "\""
   endString: "\""
 types:
-- beginString: "[-+]?\\d+(\\.\\d+)?|[-+]?\\.\\d+"
+- beginString: "\\b[-+]?\\d+(\\.\\d+)?|[-+]?\\.\\d+\\b"
   regularExpression: true
 values:
 - beginString: 'false'
