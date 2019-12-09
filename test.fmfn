@@ -4,20 +4,18 @@ $$variables = 1;
 $VAR1 = 1;
 $$VAR2 = 1;
 $変数1 = 1;
-$$変数2 = 1;
+$$変数2[1] = 1;
 $変数 スペース = 1;
 $var 1 = 1;
-
-Let([
-  ~var 1 = 1;
-];
-  ~var 1 + 1
-)
+~var var = 1;
 
 // Functions
 not Abs($hoge) = 1
-CustumFunction(~var; $$var 1 + 1)
+Custum Function(Abs($hoge); $$var 1 + 1)
+Custum Function(column + Custom_Function() + Custum Function())
 Get(デスクトップ)
+Int(Random * 100)
+Middle(text; Position(text; "["; 1; 1) + 1; Position(text; "]"; Position(text; "["; 1; 1) + 1); 1) - Position(text; "["; 1; 1) + 1)
 
 // String
 "\\String 1¶ \"$AA\""
@@ -35,3 +33,42 @@ $var 1 & "String"
 -100.11
 -0.1111
 -.11111
+
+// Field
+Table::column + Table::column
+Table_Table::column column + Table Table::column column
+テーブル::カラム
+テーブル{|.AND_テーブル::カラム
+Table::${1column}
+
+// Multi-line
+Let([
+  ~title = Table::タイトル;
+  ~spos = Position(~title; "["; 1; 1) + 1;
+  ~epos = Position(~title; "]"; ~spos; 1);
+  ~category = Middle(~title; ~spos; ~epos - ~spos)];
+  If(~spos > 1 and ~epos > 0; ~category)
+)
+
+While(
+  [
+    ~count = 1;
+    ~total = 1];
+  not IsEmpty($val[~count]);
+  [
+    ~total = ~total + $val[~count];
+    ~count = ~count + 1];
+  "Total: " & ~total
+)
+
+ExecuteSQL(
+  List(
+    "SELECT T.category, COUNT(*)";
+    "FROM \”Table\” T";
+    "WHERE T.name = ?"
+      "AND T.value in(" & $sarchList & ")";
+    "GROUP BY T.category";
+  );
+  ","; "¶";
+  $targetName
+)
