@@ -902,6 +902,8 @@ keywords:
   regularExpression: true
 - beginString: "\\-"
   regularExpression: true
+- beginString: "\\;"
+  regularExpression: true
 - beginString: "\\?"
   regularExpression: true
 - beginString: "\\^"
