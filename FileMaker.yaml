@@ -938,5 +938,5 @@ values:
 - beginString: 'true'
   ignoreCase: true
 variables:
-- beginString: "(\\$\\$?|~).+?(?=(\\&|=|≠|>|<|≥|≤|\\+|-|/|\\*|not|and|or|xor|\\^|\\[|\\]|\\(|\\)|;|\\n|$))"
+- beginString: "(\\$\\$?|~).+?(?=(\\&|=|≠|>|<|≥|≤|\\+|-|/|\\*|\\bnot|\\band|\\bor|\\bxor|\\^|\\[|\\]|\\(|\\)|;|\\n|$))"
   regularExpression: true
