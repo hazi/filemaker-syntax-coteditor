@@ -9,8 +9,6 @@ characters:
 - beginString: "¶"
   regularExpression: true
 commands:
-- beginString: "[\\w ]+(?=\\()"
-  regularExpression: true
 - beginString: Abs
 - beginString: AccountExtendedPrivileges
 - beginString: AccountGroupName
@@ -897,6 +895,8 @@ keywords:
 - beginString: "≠"
 - beginString: ">"
 - beginString: ">="
+- beginString: "[\\w ]+(?=\\()"
+  regularExpression: true
 - beginString: "\\*"
   regularExpression: true
 - beginString: "\\+"
