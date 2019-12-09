@@ -922,6 +922,14 @@ strings:
 - beginString: "\""
   endString: "\""
 types:
+- beginString: "\\("
+  regularExpression: true
+- beginString: "\\)"
+  regularExpression: true
+- beginString: "\\["
+  regularExpression: true
+- beginString: "\\]"
+  regularExpression: true
 - beginString: "\\b[-+]?\\d+(\\.\\d+)?|[-+]?\\.\\d+\\b"
   regularExpression: true
 values:
