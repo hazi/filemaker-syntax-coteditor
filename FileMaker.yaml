@@ -883,7 +883,6 @@ completions:
 extensions:
 - keyString: fmfn
 - keyString: fmp
-- keyString: txt
 interpreters: []
 keywords:
 - beginString: "&"
