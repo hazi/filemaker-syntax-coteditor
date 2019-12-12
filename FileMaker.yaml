@@ -912,10 +912,11 @@ keywords:
 - beginString: "≤"
 - beginString: "≥"
 metadata:
-  distributionURL: https://github.com/hazi/filemaker-syntax-coteditor
-  author: HAZI
-  lastModified: '2019-11-09'
   version: "1.2.0"
+  author: HAZI
+  lastModified: '2019-10-31'
+  license: BSD 3-Clause License / Copyright (c) 2019, HAZI
+  distributionURL: https://github.com/hazi/filemaker-syntax-coteditor
 numbers: []
 outlineMenu: []
 strings:

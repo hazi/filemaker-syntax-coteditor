@@ -43,6 +43,8 @@ $ ./normalizer
 
 `FileMaker.yaml.back` はコミットしないようにしてください。
 
-----
+## License
 
-[Fork from frudens/filemaker-syntax-coteditor](https://github.com/frudens/filemaker-syntax-coteditor)
+Licensed under the [BSD license](./LICENSE).
+
+Fork from [frudens/filemaker-syntax-coteditor](https://github.com/frudens/filemaker-syntax-coteditor)
