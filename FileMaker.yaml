@@ -912,7 +912,7 @@ keywords:
 - beginString: "≤"
 - beginString: "≥"
 metadata:
-  version: "1.2.0"
+  version: 1.2.0
   author: HAZI
   lastModified: '2019-10-31'
   license: BSD 3-Clause License / Copyright (c) 2019, HAZI
@@ -935,6 +935,20 @@ types:
   regularExpression: true
 values:
 - beginString: 'false'
+  ignoreCase: true
+- beginString: JSONArray
+  ignoreCase: true
+- beginString: JSONBoolean
+  ignoreCase: true
+- beginString: JSONNull
+  ignoreCase: true
+- beginString: JSONNumber
+  ignoreCase: true
+- beginString: JSONObject
+  ignoreCase: true
+- beginString: JSONRaw
+  ignoreCase: true
+- beginString: JSONString
   ignoreCase: true
 - beginString: 'true'
   ignoreCase: true
