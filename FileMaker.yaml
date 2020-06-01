@@ -920,10 +920,10 @@ keywords:
 - beginString: "≤"
 - beginString: "≥"
 metadata:
-  version: 1.2.0
+  version: 1.3.0
   author: HAZI
-  lastModified: '2019-10-31'
-  license: BSD 3-Clause License / Copyright (c) 2019, HAZI
+  lastModified: '2020-06-01'
+  license: BSD 3-Clause License / Copyright (c) 2020, HAZI
   distributionURL: https://github.com/hazi/filemaker-syntax-coteditor
 numbers: []
 outlineMenu: []
