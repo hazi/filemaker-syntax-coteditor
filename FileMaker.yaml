@@ -147,6 +147,9 @@ commands:
 - beginString: JSONListKeys
 - beginString: JSONListValues
 - beginString: JSONSetElement
+- beginString: ComputeModel
+- beginString: ConvertFromFileMakerPath
+- beginString: ConvertToFileMakerPath
 - beginString: KanaHankaku
 - beginString: KanaZenkaku
 - beginString: KanjiNumeral
@@ -427,6 +430,7 @@ commands:
 - beginString: 接続属性
 - beginString: 接続状態
 - beginString: 日付
+- beginString: システムの外観
 - beginString: 時刻
 - beginString: 暗号化状態
 - beginString: 書式設定バーの表示状態
@@ -585,6 +589,9 @@ completions:
 - keyString: JSONListKeys
 - keyString: JSONListValues
 - keyString: JSONSetElement
+- keyString: ComputeModel
+- keyString: ConvertFromFileMakerPath
+- keyString: ConvertToFileMakerPath
 - keyString: KanaHankaku
 - keyString: KanaZenkaku
 - keyString: KanjiNumeral
@@ -865,6 +872,7 @@ completions:
 - keyString: 接続属性
 - keyString: 接続状態
 - keyString: 日付
+- keyString: システムの外観
 - keyString: 時刻
 - keyString: 暗号化状態
 - keyString: 書式設定バーの表示状態
